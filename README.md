@@ -5,19 +5,29 @@
 ## arreglar
 
 **general**
-
-- [ ]  cambiar color body (al deslizar se ve que es blanco)
+- [ ] repasar los criterios para ver si lo tenemos todo
 
 **agentes**
-
-- [ ]  fotos
-- [ ]  logo
-- [ ]  letras
+- [X]  fotos
+- [X]  logo
+- [X]  letras
+- [X] foto de wayly y tejo
 
 **mapa**
+- [X]  hacerla
 
-- [ ]  hacerla
+**guias y estrategia**
+- [X]  hacela
 
-guias y estrategia
+### lo que queda por hacer**
+**paginas de contenido**
+- [ ]  Incluir un menú horizontal bajo la cabecera
+- [ ]  Añadir enlaces a la portada, índice y todas las secciones
+- [ ]  Incluir contenido principal con varias imágenes
+- [ ]  Mantener el mismo espacio de publicidad que en el índice
+- [ ]  Incluir una página con un carrusel de imágenes navegable
 
-- [ ]  hacela
+**indice**
+- [ ]  Reservar un espacio en el lateral derecho para publicidad relacionada
+- [ ]  Incluir anuncios inventados para pruebas visuales
+- [ ]  Incluir al menos un anuncio en vídeo molesto
