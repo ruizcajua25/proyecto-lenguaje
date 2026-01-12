@@ -34,12 +34,15 @@ header {
   height: 80px;
   border-radius: 10px;
   border: 3px solid #fff;
+  object-fit: cover;
 }
 
 header h1 {
   font-size: 2.5em;
   letter-spacing: 2px;
 }
+
+
 
 /* ESTILOS PARA INDEX.HTML */
 /* MAIN LAYOUT */
@@ -130,6 +133,18 @@ header h1 {
 .btn-indice:hover {
   transform: translateY(-2px);
   background: linear-gradient(90deg, #bd3944 0%, #ff4655 100%);
+}
+
+.enlace-portada {
+  display: inline-block;
+  margin: 20px 0;
+  padding: 12px 30px;
+  background: linear-gradient(90deg, #ff4655 0%, #bd3944 100%);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: all 0.3s ease;
 }
 
 /* SIDEBAR PUBLICIDAD */
@@ -331,14 +346,16 @@ footer {
 }
 
 /* ESTILOS PARA AGENTES.HTML */
-.agentes-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 25px;
+.agentes-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
   margin-bottom: 40px;
+  justify-content: center;
 }
 
 .agente-card {
+  flex: 0 0 25%;
   background: rgba(255, 255, 255, 0.05);
   border-radius: 15px;
   overflow: hidden;
@@ -347,15 +364,24 @@ footer {
   cursor: pointer;
 }
 
+.agente-card ul {
+  list-style: none;
+}
+
+.agente-card > p, .agente-card > h3, .agente-card > ul{
+  margin: 0 10px;
+}
+
 .agente-card:hover {
   transform: translateY(-10px);
   border-color: #ff4655;
 }
 
-.agente-img {
+.agente-foto {
   width: 100%;
-  height: 250px;
+  height: 350px;
   object-fit: cover;
+  object-position: top;
 }
 
 .agente-info {
@@ -595,4 +621,17 @@ footer {
   margin-top: 10px;
   font-size: 0.95em;
   line-height: 1.6;
+}
+
+/* PORTADA */
+.portada-img {
+  width: 100%;
+  height: 90vh;
+  object-fit: cover;
+  object-position: center;
+  border-bottom: 4px solid #ff4655;
+}
+
+.portada-footer {
+  margin-top: 0;
 }

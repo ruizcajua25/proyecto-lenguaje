@@ -1,21 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portada</title>
+  <title>Portada - Radiant Hub</title>
+  <link rel="stylesheet" href="estilos.css">
 </head>
+
 <body>
-  <img src="./imgs/portada.jpg" alt="Portada">
-  <footer>
-    <ul>
-      <li>autor</li>
-      <li>contacto</li>
-      <li>redes sociales</li>
-      <li>aviso legal</li>
-      // esto hay que cambiarlo por el origen de los contenidos
-      <li>origen de los contenidos</li>
-    </ul>
-  </footer>
+  <main class="portada-main">
+    <a href="index.html">
+      <img src="./imgs/portada.jpg" alt="Portada" class="portada-img">
+    </a>
+    <audio autoplay loop>
+      <source src="./audio/intro.mp3" type="audio/mpeg">
+      Tu navegador no soporta el elemento de audio.
+    </audio>
+    
+    <footer class="portada-footer">
+      <div class="footer-container">
+        <div class="footer-columna">
+          <h3>Autores</h3>
+          <p><strong>Creado por:</strong></p>
+          <p>Raúl Ramírez y Juan Ruíz</p>
+          <p>CFGS DAM - 2025</p>
+        </div>
+
+        <div class="footer-columna">
+          <h3>Contacto</h3>
+          <p>📧 radianthub@gmail.com</p>
+          <p>📱 +34 653 52 16 12</p>
+          <div class="redes-sociales">
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+            <a href="#">Discord</a>
+          </div>
+        </div>
+
+        <div class="footer-columna">
+          <h3>Información Legal</h3>
+          <p><a href="#">Aviso Legal</a></p>
+          <p><a href="#">Política de Privacidad</a></p>
+          <p><small>Contenido extraído de VALORANT © Riot Games</small></p>
+          <p><small>Sitio web educativo sin fines comerciales</small></p>
+        </div>
+      </div>
+    </footer>
+  </main>
 </body>
+
 </html>
