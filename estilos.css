@@ -340,6 +340,9 @@ footer {
   max-width: 1400px;
   margin: 40px auto;
   padding: 0 20px;
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  gap: 30px;
 }
 
 .page-content {
