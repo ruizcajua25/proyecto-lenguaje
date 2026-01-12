@@ -49,6 +49,9 @@ header h1 {
 .indice-main {
   max-width: 1400px;
   margin: 40px auto;
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  gap: 30px;
   padding: 0 20px;
 }
 
@@ -86,12 +89,14 @@ header h1 {
 
 /* GRID DE ITEMS */
 .indice-lista {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
 }
 
 .indice-item {
+  flex: 1 1 40%;
   background: linear-gradient(135deg, rgba(255, 70, 85, 0.1) 0%, rgba(189, 57, 68, 0.1) 100%);
   padding: 30px;
   border-radius: 15px;
