@@ -15,8 +15,7 @@ body {
 header {
   background: linear-gradient(90deg, #ff4655 0%, #bd3944 100%);
   padding: 20px 0;
-  position: sticky;
-  top: 0;
+  position: relative;
   z-index: 1000;
 }
 
@@ -42,7 +41,42 @@ header h1 {
   letter-spacing: 2px;
 }
 
+/* NAVEGACIÓN PRINCIPAL */
+.main-nav {
+  background: linear-gradient(90deg, #bd3944 0%, #ff4655 100%);
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  padding: 10px 0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
 
+.main-nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.main-nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1em;
+  transition: all 0.3s ease;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.main-nav a:hover {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  transform: translateY(-2px);
+}
 
 /* ESTILOS PARA INDEX.HTML */
 /* MAIN LAYOUT */
